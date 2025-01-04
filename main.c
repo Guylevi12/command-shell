@@ -22,7 +22,6 @@ typedef struct Jobs {
     struct Jobs *next;
 } Jobs;
 
-
 //global variables for certain elements like counters and checks
 Jobs *jobsList = NULL;
 Alias *head = NULL;
